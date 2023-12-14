@@ -12,9 +12,9 @@ arr.slice()
 
 
 // splice
-//syntax splice(startIndex,removeElementUptoIndex,replace)
-// arr.splice(2,2,101,102);
-// console.log(arr)
+//syntax splice(startIndex,removeElementCount,replace)
+arr.splice(2,4,101,102);
+console.log("Splice o/p: ",arr)
 
 // Add Element
 // arr.splice(2,0,101);
