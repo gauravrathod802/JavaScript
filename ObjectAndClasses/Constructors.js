@@ -1,12 +1,12 @@
 class ToyotaCar{
     // javascript doesn't support constructor overloading
-    // constructor(){
-    //     console.log("inside constructor");
-    // }
-    constructor(brand){
-        this.brand=brand;
-        console.log("parameterised constructor");
+    constructor(){
+        console.log("inside constructor");
     }
+    // constructor(brand){
+    //     this.brand=brand;
+    //     console.log("parameterised constructor");
+    // }
     start(){
         console.log("start");
     }
