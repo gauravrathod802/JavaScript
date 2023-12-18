@@ -9,6 +9,7 @@ function getdata(dataId,getNextData){
 
 // callback hell:
 // calling nested callback is said to be callback hell.
+// defining multiple nested callback leads to difficulty in understanding and managing the code 
 // for resolving the problem of callback hell promises comes into picture.
 
 getdata(1, ()=>{
