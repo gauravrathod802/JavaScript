@@ -3,9 +3,11 @@ class Cars{
     constructor(){
         console.warn("Constructor",this.name);
     }
-    name(params){
-
+    bolero(params){
+        console.log("function call")
     }
 }
 
-let c=new Cars
+let c=new Cars();
+c.bolero();
+console.log("Variable calling :",c.name);
